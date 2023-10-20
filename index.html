@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devie-width, initial-scale=1.0">
+    <title>Griot Theatre Site</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            background-color: black;
+            color: whitesmoke;
+            height: 9vh;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            margin-left: 5%;
+            font-size: 23px;
+        }
+
+        .list-items {
+            display: flex;
+            justify-content: space-between;
+            margin-right: 20%;
+            width: 50%;
+        }
+
+        .list-items>a {
+            color: white;
+            margin-right: 10%;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .hero {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .hero>img {
+            width: 200%;
+            height: 100vh;
+            object-fit: contain;
+            object-position: left;
+        }
+
+        .hero>h3 {
+            display: flex;
+            position: absolute;
+            top: 20%;
+            color: rgb(249, 243, 243);
+            font-size: 75px;
+        }
+
+        main {
+            border: 1px solid black;
+            width: 100%;
+            max: 800px;
+            min-width: 400px;
+        }
+
+        .date {
+            width: 100%;
+            margin-top: 8vh;
+            border: 1px solid rgb(177, 171, 171) background-color;
+            gainsboro:
+        }
+
+        .marquee {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 3vh;
+        }
+
+        .marquee>img {
+            width: 20%;
+            margin-left: 1.5%;
+        }
+
+        .marquee>article {
+            margin-right: 20%;
+
+        }
+
+        .marquee>article>p,
+        .marquee>article>h4 {
+            margin-bottom: 2vh;
+        }
+
+        .marquee>button {
+            width: 110px;
+            height: 45px;
+            font-size: 17px;
+            background-color: orange;
+            border: 1px solid;
+            color: white;
+        }
+
+        hr {
+            margin-top: 2vh;
+            border-bottom: 1px solid rgb(193, 186, 186);
+        }
+
+        .footer {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #080000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .footer {
+            background-color: #333;
+            text-align: center;
+        }
+
+        .footer-list {
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-list>li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .footer-list>li>a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer-img {
+            width: 20%;
+            margin-left: 1.5%;
+        }
+    
+    </style>
+
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <h1 style="color: whitesmoke;">Griot Theatre</h1>
+            <div class="list-items">
+                <a href="#">Home</a>
+                <a href="#">Features</a>
+                <a href="#">Our Actors</a>
+                <a href="#">Mission</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+
+        <div class="hero">
+
+            <img src="./GriotTheatreImages/theater-image-background.png">
+
+            <h3> Featured Shows</h3>
+
+        </div>
+
+    </header>
+
+    <main>
+        <div class="date">
+
+            <h3> April 2023</h3>
+
+        </div>
+
+        <div class="marquee">
+            <img src="./GriotTheatreImages/Actors.png">
+            <article>
+
+                <h4>A Raisin in The Sun</h4>
+                <p>April 6, 2023 - March 12, 2023</p>
+                <p>Griot Theater, 233 State St. Chicago, Il</p>
+                <p>$75.00</p>
+
+            </article>
+
+            <button>Read More</button>
+        </div>
+
+        <hr>
+        <div class="marquee">
+            <img src="./GriotTheatreImages/Actors.png">
+            <article>
+
+                <h4>A Raisin in The Sun</h4>
+                <p>April 6, 2023 - March 12, 2023</p>
+                <p>Griot Theater, 233 State St. Chicago, Il</p>
+                <p>$75.00</p>
+
+            </article>
+
+            <button>Read More</button>
+        </div>
+
+        <hr>
+        <div class="marquee">
+            <img src="./GriotTheatreImages/Actors.png">
+            <article>
+
+                <h4>A Raisin in The Sun</h4>
+                <p>April 6, 2023 - March 12, 2023</p>
+                <p>Griot Theater, 233 State St. Chicago, Il</p>
+                <p>$75.00</p>
+
+            </article>
+
+            <button>Read More</button>
+        </div>
+
+        <hr>
+
+        <div class="marquee">
+            <img src="./GriotTheatreImages/Actors.png">
+            <article>
+
+                <h4>A Raisin in The Sun</h4>
+                <p>April 6, 2023 - March 12, 2023</p>
+                <p>Griot Theater, 233 State St. Chicago, Il</p>
+                <p>$75.00</p>
+
+            </article>
+
+            <button>Read More</button>
+
+        </div>
+
+        <div class="footer">
+            <ul class="footer-list">
+                <li><a href="#">Map</a></li>
+                <li><a href="#">Info</a></li>
+                <li><a href="#">Other Shows</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">More</a></li>
+                <li><a href="#">Contact Us </a></li>
+            </ul>
+
+            <div class="footer-img">
+                <img src="./GriotTheatreImages/Map.png">
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
